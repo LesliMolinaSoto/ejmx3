@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trivia Cultural</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>¡Bienvenidos al juego de trivias!</h1>
+    <h2>Te divertirás respondiendo y aprendiendo.<br/>
+      ¡Por favor ingresa tu nombre!
+    </h2>
+
+      <div id = "iniciar">
+
+        <input type="text" id="name"/>
+        <button id="btn-empezar" class="btn">empezar</button>
+      </div>
+
+      <div id="items" class="hidden">
+      <button id="btn-item1" class="btn">Cultura General</button>
+      <button id="btn-item2" class="btn">Musica</button>
+      </div>
+
+      <div id="culturagen" class="hidden">
+        <h2>Cultura General</h2>
+
+        <form id="quiz" name="quiz">
+        <p>¿Quien Descubrió la ciudad de Caral?</p>
+        <input type="radio" name="question1" value="Ruth Shady">Ruth Shady<br>
+        <input type="radio" name="question1" value="Maria Reiche">Walter Reiche<br>
+        <input type="radio" name="question1" value="Fernando Kosok">Fernando Kosok<br>
+
+        <p>¿Donde queda Machu Picchu?</p>
+        <input type="radio" name="question2" value="Cusco">Cusco<br>
+        <input type="radio" name="question2" value="Arequipa">Arequipa<br>
+        <input type="radio" name="question2" value="Nazca">Nazca<br>
+
+        <p>¿Quien era Pachacutec?</p>
+        <input type="radio" name="question3" value="El Soberano del Imperio Incaico">El Soberano del Imperio Incaico<br>
+        <input type="radio" name="question3" value="El Rey de España">El Rey de España<br>
+        <input type="radio" name="question3" value="Un agricultor">Un agricultor<br>
+
+        <button id="final" class="btn">Finalizar</button>
+      </form>
+      </div>
+
+      <div id="musica" class="hidden">
+        <h2>Música</h2>
+
+        <form id="quiz" name="quiz">
+        <p>¿A quien se considera como el rey “el rey del Rock and Roll”?</p>
+        <input type="radio" name="question1" value="Bill Haley">Bill Haley<br>
+        <input type="radio" name="question1" value="Chuck Berry">Chuck Berry<br>
+        <input type="radio" name="question1" value="Little Richard">Little Richard<br>
+
+        <p>¿Dónde nació en el rock psicodélico?</p>
+        <input type="radio" name="question2" value="Missisipi">Missisipi<br>
+        <input type="radio" name="question2" value="San Francisco">San Francisco<br>
+        <input type="radio" name="question2" value="Lima">Lima<br>
+
+        <p>¿Quién revolucionó la forma de tocar la guitarra en los 60?</p>
+        <input type="radio" name="question3" value="Jimi Hendrix">Jimi Hendrix<br>
+        <input type="radio" name="question3" value="John Frusciante">John Frusciante<br>
+        <input type="radio" name="question3" value="Slash">Slash<br>
+
+        <button id="final1" class= "btn">Finalizar</button>
+
+        </form>
+        <form id = "Finalizar" name="Finalizar">
+          <input type="radio" name="question1" value="Ruth Shady">Ruth Shady<br>
+          <input type="radio" name="question2" value="Cusco">Cusco<br>
+          <input type="radio" name="question3" value="El Soberano del Imperio Incaico">El Soberano del Imperio Incaico<br>
+          <input type="radio" name="question4" value="Chuck Berry">Chuck Berry<br>
+          <input type="radio" name="question5" value="San Francisco">San Francisco<br>
+          <input type="radio" name="question6" value="Jimi Hendrix">Jimi Hendrix<br>
+
+
+        </form>
+
+
+      </div>
+
+
+  <script type="text/javascript" src="app.js">
+  </script>
+  </body>
+
+
+
+
+
+
+
+
+</html>
